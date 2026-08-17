@@ -23,6 +23,13 @@ languageToggle.addEventListener("click", () => {
     english = !english;
 
     if (english) {
+        document.querySelector('#contacto .section-title p').textContent = "GET IN TOUCH";
+document.querySelector('#contacto .section-title h2').textContent = "Contact";
+
+document.querySelector('#contacto > p').textContent =
+    "Do you have a question, project or proposal? You can contact me.";
+
+document.querySelector('#contacto .btn').textContent = "Send email";
         languageToggle.textContent = "🇺🇸 EN";
         document.querySelector('#proyectos .section-title h2').textContent = "My projects";
         document.querySelector('#proyectos .section-title p').textContent = "WHAT I HAVE CREATED";
