@@ -23,6 +23,8 @@ languageToggle.addEventListener("click", () => {
     english = !english;
 
     if (english) {
+        document.querySelector(".social-section .section-title p").textContent = "FIND ME";
+document.querySelector(".social-section .section-title h2").textContent = "My social networks";
         document.querySelector('#contacto .section-title p').textContent = "GET IN TOUCH";
 document.querySelector('#contacto .section-title h2').textContent = "Contact";
 
@@ -92,6 +94,8 @@ document.querySelector('#experiencia h4').textContent = "Academic development an
 document.querySelector('#experiencia .experience-card p').textContent =
      "During my training as a Systems Engineering student, I have participated in different projects and practices related to programming, web development, data structures, systems and virtualization technologies.";
 } else {
+        document.querySelector(".social-section .section-title p").textContent = "ENCUÉNTRAME";
+document.querySelector(".social-section .section-title h2").textContent = "Mis redes sociales";
             document.querySelector("#experiencia .section-title p").textContent = "MI TRAYECTORIA";
 
     document.querySelector("#experiencia h3").textContent = "Formación y experiencia";
