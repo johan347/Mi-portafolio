@@ -28,6 +28,11 @@ languageToggle.addEventListener("click", () => {
         document.querySelector('a[href="#inicio"]').textContent = "Home";
         document.querySelector('a[href="#sobre-mi"]').textContent = "About me";
         document.querySelector('a[href="#experiencia"]').textContent = "Experience";
+        document.querySelector('#experiencia .section-title p').textContent = "MY JOURNEY";
+document.querySelector('#experiencia h3').textContent = "Education and experience";
+document.querySelector('#experiencia h4').textContent = "Academic development and projects";
+document.querySelector('#experiencia .experience-card p').textContent =
+    "During my training as a Systems Engineering student, I have participated in different projects and practices related to programming, web development, data structures, systems and virtualization technologies.";
         document.querySelector('a[href="#proyectos"]').textContent = "Projects";
         document.querySelector('a[href="#habilidades"]').textContent = "Skills";
         document.querySelector('a[href="#contacto"]').textContent = "Contact";
