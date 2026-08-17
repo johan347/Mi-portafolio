@@ -58,11 +58,11 @@ document.querySelectorAll("#sobre-mi .about-content p")[0].textContent =
 
 document.querySelectorAll("#sobre-mi .about-content p")[1].textContent =
     "During my academic training, I have had the opportunity to work on different projects involving programming, web development, data structures, systems and virtual environment administration. Each project has allowed me to acquire new knowledge and continue preparing for my professional future.";
-        document.querySelector('#experiencia .section-title p').textContent = "MI TRAYECTORIA";
-document.querySelector('#experiencia h3').textContent = "Formación y experiencia";
-document.querySelector('#experiencia h4').textContent = "Desarrollo académico y proyectos";
+        document.querySelector('#experiencia .section-title p').textContent = "MY JOURNEY";
+document.querySelector('#experiencia h3').textContent = "Education and experience";
+document.querySelector('#experiencia h4').textContent = "Academic development and projects";
 document.querySelector('#experiencia .experience-card p').textContent =
-    "Durante mi formación como estudiante de Ingeniería en Sistemas he participado en diferentes proyectos y prácticas relacionadas con programación, desarrollo web, estructuras de datos, sistemas y tecnologías de virtualización.";
+     "During my training as a Systems Engineering student, I have participated in different projects and practices related to programming, web development, data structures, systems and virtualization technologies.";
 } else {
             document.querySelector("#experiencia .section-title p").textContent = "MI TRAYECTORIA";
 
