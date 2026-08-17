@@ -33,30 +33,39 @@ languageToggle.addEventListener("click", () => {
         document.querySelector('a[href="#contacto"]').textContent = "Contact";
 
         document.querySelector(".saludo").textContent = "Hello, I am";
-        document.querySelector(".hero-content h2").textContent = "Systems Engineering Student";
-        document.querySelector("#inicio .hero-content p:not(.saludo)").textContent =
-    ""Welcome to my personal portfolio. Here you can learn more about me, my experience, my projects and the skills I have developed.";
+document.querySelector(".saludo").textContent = "Hello, I am";
+document.querySelector(".hero-content h2").textContent = "Systems Engineering Student";
+
+document.querySelector("#inicio .hero-content p:not(.saludo)").textContent =
+    "Welcome to my personal portfolio. Here you can learn more about me, my experience, my projects and the skills I have developed.";
 
 document.querySelector('#inicio .btn[href="#sobre-mi"]').textContent =
-    "Get to know me";";
+    "Get to know me";
 
 document.querySelector('#inicio .btn[href="#contacto"]').textContent =
     "Contact me";
-    } else {
-        languageToggle.textContent = "🇪🇸 ES";
 
-        document.querySelector('a[href="#inicio"]').textContent = "Inicio";
-        document.querySelector('a[href="#sobre-mi"]').textContent = "Sobre mí";
-        document.querySelector('a[href="#experiencia"]').textContent = "Experiencia";
-        document.querySelector('a[href="#proyectos"]').textContent = "Proyectos";
-        document.querySelector('a[href="#habilidades"]').textContent = "Habilidades";
-        document.querySelector('a[href="#contacto"]').textContent = "Contacto";
+} else {
+    languageToggle.textContent = "🇪🇸 ES";
 
-        document.querySelector(".saludo").textContent = "Hola, soy";
-        document.querySelector(".hero-content h2").textContent = "Estudiante de Ingeniería en Sistemas";
-        document.querySelector("#inicio .hero-content p:not(.saludo)").textContent =
-    "Welcome to my personal portfolio. Here you can learn more about me, my experience, my projects and the skills I have developed.";
+    document.querySelector('a[href="#inicio"]').textContent = "Inicio";
+    document.querySelector('a[href="#sobre-mi"]').textContent = "Sobre mí";
+    document.querySelector('a[href="#experiencia"]').textContent = "Experiencia";
+    document.querySelector('a[href="#proyectos"]').textContent = "Proyectos";
+    document.querySelector('a[href="#habilidades"]').textContent = "Habilidades";
+    document.querySelector('a[href="#contacto"]').textContent = "Contacto";
 
+    document.querySelector(".saludo").textContent = "Hola, soy";
+    document.querySelector(".hero-content h2").textContent = "Estudiante de Ingeniería en Sistemas";
+
+    document.querySelector("#inicio .hero-content p:not(.saludo)").textContent =
+        "Bienvenido a mi portafolio personal. Aquí podrás conocer más sobre mí, mi experiencia, mis proyectos y las habilidades que he desarrollado.";
+
+    document.querySelector('#inicio .btn[href="#sobre-mi"]').textContent =
+        "Conóceme";
+
+    document.querySelector('#inicio .btn[href="#contacto"]').textContent =
+        "Contáctame";
 document.querySelector('#inicio .btn[href="#sobre-mi"]').textContent =
     "Get to know me";
 
