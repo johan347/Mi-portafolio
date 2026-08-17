@@ -22,7 +22,28 @@ let english = false;
 languageToggle.addEventListener("click", () => {
     english = !english;
 
-    if (english) {
+    if (english) { document.querySelector("#habilidades .section-title p").textContent = "MY SKILLS";
+document.querySelector("#habilidades .section-title h2").textContent = "Skills";
+
+document.querySelector("#contacto .section-title p").textContent = "GET IN TOUCH";
+document.querySelector("#contacto .section-title h2").textContent = "Contact";
+document.querySelector("#contacto > p").textContent =
+    "Do you have a question, project or proposal? You can contact me.";
+        document.querySelector("#proyectos .section-title p").textContent = "LO QUE HE CREADO";
+document.querySelector("#proyectos .section-title h2").textContent = "Mis proyectos";
+
+document.querySelectorAll("#proyectos .project-card h3")[0].textContent = "Proyecto de programación";
+document.querySelectorAll("#proyectos .project-card p")[0].textContent = "Proyecto en C++ desarrollado para practicar programación y estructuras de datos.";
+
+document.querySelectorAll("#proyectos .project-card h3")[1].textContent = "Proyecto Web";
+document.querySelectorAll("#proyectos .project-card p")[1].textContent = "Proyecto de desarrollo web enfocado en la creación y diseño de soluciones digitales.";
+
+document.querySelectorAll("#proyectos .project-card h3")[2].textContent = "Proyecto de Sistemas";
+document.querySelectorAll("#proyectos .project-card p")[2].textContent = "Proyecto de sistemas enfocado en virtualización, redes y administración de sistemas.";
+
+document.querySelectorAll("#proyectos .project-link")[0].textContent = "Ver proyecto →";
+document.querySelectorAll("#proyectos .project-link")[1].textContent = "Ver proyecto →";
+document.querySelectorAll("#proyectos .project-link")[2].textContent = "Ver proyecto →";
         document.querySelector(".social-section .section-title p").textContent = "FIND ME";
 document.querySelector(".social-section .section-title h2").textContent = "My social networks";
         document.querySelector('#contacto .section-title p').textContent = "GET IN TOUCH";
@@ -93,7 +114,28 @@ document.querySelector('#experiencia h3').textContent = "Education and experienc
 document.querySelector('#experiencia h4').textContent = "Academic development and projects";
 document.querySelector('#experiencia .experience-card p').textContent =
      "During my training as a Systems Engineering student, I have participated in different projects and practices related to programming, web development, data structures, systems and virtualization technologies.";
-} else {
+} else { document.querySelector("#habilidades .section-title p").textContent = "MIS HABILIDADES";
+document.querySelector("#habilidades .section-title h2").textContent = "Habilidades";
+
+document.querySelector("#contacto .section-title p").textContent = "HABLEMOS";
+document.querySelector("#contacto .section-title h2").textContent = "Contáctame";
+document.querySelector("#contacto > p").textContent =
+    "¿Tienes alguna pregunta, proyecto o propuesta? Puedes comunicarte conmigo.";
+        document.querySelector("#proyectos .section-title p").textContent = "LO QUE HE CREADO";
+document.querySelector("#proyectos .section-title h2").textContent = "Mis proyectos";
+
+document.querySelectorAll("#proyectos .project-card h3")[0].textContent = "Proyecto de programación";
+document.querySelectorAll("#proyectos .project-card p")[0].textContent = "Proyecto en C++ desarrollado para practicar programación y estructuras de datos.";
+
+document.querySelectorAll("#proyectos .project-card h3")[1].textContent = "Proyecto Web";
+document.querySelectorAll("#proyectos .project-card p")[1].textContent = "Proyecto de desarrollo web enfocado en la creación y diseño de soluciones digitales.";
+
+document.querySelectorAll("#proyectos .project-card h3")[2].textContent = "Proyecto de Sistemas";
+document.querySelectorAll("#proyectos .project-card p")[2].textContent = "Proyecto de sistemas enfocado en virtualización, redes y administración de sistemas.";
+
+document.querySelectorAll("#proyectos .project-link")[0].textContent = "Ver proyecto →";
+document.querySelectorAll("#proyectos .project-link")[1].textContent = "Ver proyecto →";
+document.querySelectorAll("#proyectos .project-link")[2].textContent = "Ver proyecto →";
         document.querySelector(".social-section .section-title p").textContent = "ENCUÉNTRAME";
 document.querySelector(".social-section .section-title h2").textContent = "Mis redes sociales";
             document.querySelector("#experiencia .section-title p").textContent = "MI TRAYECTORIA";
