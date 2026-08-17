@@ -35,13 +35,13 @@ languageToggle.addEventListener("click", () => {
         document.querySelector(".saludo").textContent = "Hello, I am";
         document.querySelector(".hero-content h2").textContent = "Systems Engineering Student";
         document.querySelector("#inicio .hero-content p:not(.saludo)").textContent =
-    "Bienvenido a mi portafolio personal. Aquí podrás conocer más sobre mí, mi experiencia, mis proyectos y las habilidades que he desarrollado.";
+    ""Welcome to my personal portfolio. Here you can learn more about me, my experience, my projects and the skills I have developed.";
 
 document.querySelector('#inicio .btn[href="#sobre-mi"]').textContent =
-    "Conóceme";
+    "Get to know me";";
 
 document.querySelector('#inicio .btn[href="#contacto"]').textContent =
-    "Contáctame";
+    "Contact me";
     } else {
         languageToggle.textContent = "🇪🇸 ES";
 
