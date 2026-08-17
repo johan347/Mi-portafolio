@@ -45,6 +45,15 @@ document.querySelector('#inicio .btn[href="#sobre-mi"]').textContent =
 document.querySelector('#inicio .btn[href="#contacto"]').textContent =
     "Contact me";
 
+    document.querySelector("#sobre-mi .section-title p").textContent = "ABOUT ME";
+document.querySelector("#sobre-mi .section-title h2").textContent = "About me";
+
+document.querySelectorAll("#sobre-mi .about-content p")[0].textContent =
+    "I am Johan Pichardo, a Systems Engineering student passionate about technology and the development of digital solutions. I am interested in continuing to learn, improving my skills and turning my ideas into projects that can provide real solutions.";
+
+document.querySelectorAll("#sobre-mi .about-content p")[1].textContent =
+    "During my academic training, I have had the opportunity to work on different projects involving programming, web development, data structures, systems and virtual environment administration. Each project has allowed me to acquire new knowledge and continue preparing for my professional future.";
+
 } else {
     languageToggle.textContent = "🇪🇸 ES";
 
@@ -71,5 +80,14 @@ document.querySelector('#inicio .btn[href="#sobre-mi"]').textContent =
 
 document.querySelector('#inicio .btn[href="#contacto"]').textContent =
     "Contact me";
+
+    document.querySelector("#sobre-mi .section-title p").textContent = "CONÓCEME";
+document.querySelector("#sobre-mi .section-title h2").textContent = "Sobre mí";
+
+document.querySelectorAll("#sobre-mi .about-content p")[0].textContent =
+    "Soy Johan Pichardo, estudiante de Ingeniería en Sistemas, apasionado por la tecnología y el desarrollo de soluciones digitales. Me interesa seguir aprendiendo, mejorar mis habilidades y convertir mis ideas en proyectos que puedan aportar soluciones reales.";
+
+document.querySelectorAll("#sobre-mi .about-content p")[1].textContent =
+    "Durante mi formación académica he tenido la oportunidad de trabajar en diferentes proyectos de programación, desarrollo web, estructuras de datos, sistemas y administración de entornos virtuales. Cada proyecto me ha permitido adquirir nuevos conocimientos y seguir preparándome para mi futuro profesional.";
     }
 });
