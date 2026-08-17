@@ -24,6 +24,26 @@ languageToggle.addEventListener("click", () => {
 
     if (english) {
         languageToggle.textContent = "🇺🇸 EN";
+        document.querySelector('#proyectos .section-title h2').textContent = "My projects";
+        document.querySelector('#proyectos .section-title p').textContent = "WHAT I HAVE CREATED";
+        document.querySelectorAll('#proyectos .project-card h3')[0].textContent = "Programming Project";
+document.querySelectorAll('#proyectos .project-card h3')[1].textContent = "Web Project";
+document.querySelectorAll('#proyectos .project-card h3')[2].textContent = "Systems Project";
+        document.querySelectorAll('#proyectos .project-link').forEach(link => {
+    link.textContent = "View project →";
+});
+        document.querySelectorAll('#proyectos .project-card p')[0].textContent =
+    "C++ project developed to practice programming and data structures.";
+
+document.querySelectorAll('#proyectos .project-card p')[1].textContent =
+    "Web development project focused on creating and designing digital solutions.";
+
+document.querySelectorAll('#proyectos .project-card p')[2].textContent =
+    "Systems project focused on virtualization, networks and system administration.";
+        document.querySelector('#habilidades .section-title p').textContent = "MY SKILLS";
+document.querySelector('#habilidades .section-title h2').textContent = "Skills";
+        document.querySelector('#contacto .section-title p').textContent = "GET IN TOUCH";
+document.querySelector('#contacto .section-title h2').textContent = "Contact";
 
         document.querySelector('a[href="#inicio"]').textContent = "Home";
         document.querySelector('a[href="#sobre-mi"]').textContent = "About me";
