@@ -64,6 +64,14 @@ document.querySelector('#experiencia h4').textContent = "Desarrollo académico y
 document.querySelector('#experiencia .experience-card p').textContent =
     "Durante mi formación como estudiante de Ingeniería en Sistemas he participado en diferentes proyectos y prácticas relacionadas con programación, desarrollo web, estructuras de datos, sistemas y tecnologías de virtualización.";
 } else {
+            document.querySelector("#experiencia .section-title p").textContent = "MI TRAYECTORIA";
+
+    document.querySelector("#experiencia h3").textContent = "Formación y experiencia";
+
+    document.querySelector("#experiencia h4").textContent = "Desarrollo académico y proyectos";
+
+    document.querySelector("#experiencia .experience-card p").textContent =
+        "Durante mi formación como estudiante de Ingeniería en Sistemas he participado en diferentes proyectos y prácticas relacionadas con programación, desarrollo web, estructuras de datos, sistemas y tecnologías de virtualización.";
     languageToggle.textContent = "🇪🇸 ES";
 
     document.querySelector('a[href="#inicio"]').textContent = "Inicio";
